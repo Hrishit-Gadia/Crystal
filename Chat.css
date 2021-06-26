@@ -1,0 +1,43 @@
+Body {
+    background-color: black;
+    font-family:'IM Fell English SC', serif;
+    text-align: center;
+}
+
+#Text {
+    background-color: transparent;
+    color: violet;
+    border: none;
+    height: 37.5px;
+    Width : 25%;
+    text-align: center;
+    font-size: large;
+}
+
+#Messages {
+    height: 75%;
+    color: coral;
+}
+
+::placeholder {
+        color: violet;
+        text-align: center;
+}
+
+.TextMessage {
+    border-width : 2px;
+    border-style: solid;
+    margin: 10;
+}
+
+#name {
+    color: wheat;
+    text-align: left;
+}
+
+#go {
+    color: darkcyan;
+    background: none;
+    border: none;
+    font-size: 25px;
+}

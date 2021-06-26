@@ -1,0 +1,71 @@
+Body {
+    text-align: center;
+    background-color: black;
+}
+
+#Logo {
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 75%;
+}
+
+.White  {
+    Color : White;
+}
+
+#Intro {
+    Float : Left;
+    font-family: cursive;
+}
+
+#Content {
+    Float : center;
+    font-family: 'IM Fell English SC', serif;
+}
+.Blue  {
+    Color :cyan;
+}
+
+::Placeholder{
+    Color :yellow;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 25px;
+}
+
+#Name {
+    background-color: transparent;
+    border-color: transparent;
+    Height : 50px;
+    text-align: center;
+    Color :yellow;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 25px;
+}
+
+#Info {
+    Background-color: transparent;
+    color : Red;
+    border-color: transparent;
+    font-size: 25px;
+}
+
+#Start {
+    Background-color: transparent;
+    color : orange;
+    border-color: transparent;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 25px;
+}
+
+#Alert {
+    background: rgb(0,255,255);
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0) 0%, rgb(255, 255, 0) 100%);
+   border-radius: 10px;
+   color : purple;
+   height : 100px;
+   display : none;
+   font-size: 20px;
+   font-family: 'IM Fell English SC', serif;
+   float: right;
+}

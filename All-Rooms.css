@@ -1,0 +1,11 @@
+Body{
+    background-color: black;
+    font-family: 'IM Fell English SC', serif;
+    text-align: center;
+}
+
+.Rooms {
+    color: rgb(255, 77, 106);
+    font-size: 25px;
+    border: 5px solid rgb(22, 207, 207);
+}

@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    font-family:'IM Fell English SC', serif;
+    text-align: center;
+}
+
+#Things {
+    color: violet;
+}
+
+#img {
+    float: right;
+}
+
+#orange {
+    color: orange;
+}
+
+#searched{
+    background: none;
+    border: none;
+    color: lightcyan;
+    font-size: 37.5px;
+    text-align: center;
+}
+
+::placeholder{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 37.5px;
+}
+
+#go{
+    background: none;
+    border: none;
+    color: lime;
+    font-size: 25px;
+}
+
+.pink {
+    color: palevioletred;
+}
+
+.yellow {
+    color: cyan;
+}
+
+#txt {
+    display: inline-block;
+}
+
+#qwe {
+    float: right;
+}

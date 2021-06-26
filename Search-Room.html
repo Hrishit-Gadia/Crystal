@@ -1,0 +1,83 @@
+<Html>
+
+<head>
+    <title>
+        Your Rooms | Crystal
+    </title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <script src="Search-Room.js"></script>
+    <link rel="stylesheet" href="Search-Room.css">
+</head>
+
+<Body>
+    <center>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navigate">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="Home.html">Crystal</a>
+                </div>
+                <div class="collapse navbar-collapse" id="Navigate">
+                    <ul class="nav navbar-nav">
+                        <li><a href="Home.html">Home</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Rooms<span
+                                    class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="Your-Rooms.html">Your Rooms</a></li>
+                                <li><a href="All-Rooms.html">All Rooms</a></li>
+                                <li><a href="New-Room.html">Create New Room</a></li>
+                                <li class="active"><a href="Search-Room.html">Search A Room</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Chat.html">Previous Chat Room</a></li>
+                        <li><a href="Querry.html">Resolve Your Querry</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="Log.html"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="Things">
+
+            <div class="col-sm-4">
+
+                <h1><B>Crystal</B></h1>
+
+                <img src="Crystal-Logo.png" class="img-responsive">
+            </div>
+
+        </div>
+        <H1 class="pink">Finding A pre-made Room!</H1>
+        <br>
+        <br>
+        <div>
+            <h1 id="orange">Enter The To Be Searched Room Name</h1>
+            <input id="searched" placeholder="Over Here!">
+            <br>
+            <button onclick="Sea()" id="go">Search</button>
+        </div>
+<div id = "qwe">
+        <H3 class="yellow" id="txt">All The Best</H3>
+        &nbsp; &nbsp;
+        <span class="yellow glyphicon glyphicon-thumbs-up"></span>
+        <H2 class="yellow">Make Your Thoughts Shine!</H2>
+        </div>
+    </center>
+</Body>
+
+</Html>

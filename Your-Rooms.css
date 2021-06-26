@@ -1,0 +1,16 @@
+body {
+        background-color: black;
+        font-family:'IM Fell English SC', serif;
+        text-align: center;
+}
+
+.white {
+    color: white;
+}
+.red{
+    color : red;
+}
+
+#Rooms {
+    color : rgb(176, 141, 87);
+}

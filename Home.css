@@ -1,0 +1,34 @@
+#The-Body {
+    background-color: black;
+    font-family:'IM Fell English SC', serif;
+}
+
+li {
+    color: silver;
+}
+
+#gold {
+    color: gold;
+}
+
+#chat {
+    color: silver;
+}
+
+#chatbot {
+    border-color: black;
+    background-color: black;
+    color: black;
+}
+
+#things {
+    color: rgb(255, 0, 255);
+}
+
+#bronze {
+    color: rgb(176, 141, 87);
+}
+
+#silver {
+    color: silver;
+}
