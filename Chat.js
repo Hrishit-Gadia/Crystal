@@ -21,6 +21,7 @@ var Texted = "Empty";
 
 //Functions
 function Send() {
+    Person = localStorage.getItem("Crystal Name");
     Texted = document.getElementById("Text").value;
     firebase.database().ref(Room).push({
         Name: Person,

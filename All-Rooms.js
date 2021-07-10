@@ -30,5 +30,5 @@ getData();
 
 function go(name) {
     window.location = "Chat.html";
-    localStorage.setItem("Crystal Name", name);
+    localStorage.setItem("Crystal Room", name);
 }
