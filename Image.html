@@ -1,9 +1,9 @@
-<Html>
+<html>
 
 <head>
-    <title>
-        Chat | Crystal
-    </title>
+    <title>Shared Images | Crystal</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
     <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
@@ -14,12 +14,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
-    <script src="Chat.js"></script>
-    <link rel="stylesheet" href="Chat.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Image.css">
 </head>
 
-<Body onload="go()">
+<Body>
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -51,18 +50,14 @@
             </div>
         </div>
     </nav>
-    <H1 id="Room"></H1>
-    <li class="dropdown"  id="attach">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#"  id="pin"> &nbsp; attach &nbsp; <span
-                class="fa fa-paperclip"></span></a>
-        <ul class="dropdown-menu">
-            <li><a href="Image.html">Image</a></li>
-        </ul>
-    </li>
-    <Input id="Text" placeholder="Enter Your Message Here">
-    <button onclick="Send()" id="go" class="glyphicon glyphicon-send"></button>
-    <br>
-    <Div Id="Messages"></Div>
-</Body>
+    <center>
+        <li><a href="Chat.html" id="back"><span class="fa fa-arrow-circle-left"></span>Back</a></li>
+        <div id="WebCam"></div>
+        <button onclick="Picture()" id="send">Share This Pic</button>
+        <div id="View"></div>
+        <div id="Sent"></div>
+        <script src="Image.js"></script>
+    </center>
+</body>
 
-</Html>
+</html>

@@ -2,6 +2,8 @@
 var User;
 var Alert;
 
+localStorage.setItem('Crystal Room', 'Welcome');
+
 function SignIn() {
     // Main Function
     User = document.getElementById("Name").value;

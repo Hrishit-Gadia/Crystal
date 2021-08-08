@@ -41,13 +41,25 @@ Body {
     border: none;
     font-size: 25px;
 }
-
 #Room{
     color: cyan;
 }
 
-#Attach,#pin{
-    color: gold;
-    font-size: 25px;
-    display: inline-block;
+#Shared{
+    border-width: 2;
+    border-color: lightseagreen;
+    border-style: solid;
+    width: min-content;
+}
+
+#back{
+    color: lightgray;
+    font-size: 20px;
+    text-align: left;
+}
+
+#send{
+    background:none;
+    border: none;
+    color: lightsteelblue;
 }

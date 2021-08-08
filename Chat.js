@@ -31,6 +31,10 @@ function Send() {
     document.getElementById("Text").value = "";
 }
 
+function go() {
+    document.getElementById('Room').innerHTML = "You Are In @"+localStorage.getItem("Crystal Room");
+}
+
 function getData() {
     firebase.database().ref("/" + Room).on('value', function (snapshot) {
         document.getElementById("Messages").innerHTML = "";
